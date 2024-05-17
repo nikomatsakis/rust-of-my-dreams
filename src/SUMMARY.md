@@ -10,6 +10,8 @@
     - [Autoclaim](./autoclaim.md)
     - [View types](./view_types.md)
     - [Auto view types for private functions](./auto_view_types.md)
+    - [Place-based lifetimes](./place_lifetimes.md)
+    - [Self-referential structures](./self_referential.md)
 - [Simple error handling](./error_handling.md)
     - [Try fn and try blocks](./try.md)
     - [Async try fns](./async_try.md)
