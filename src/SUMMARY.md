@@ -1,3 +1,17 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+- [Introduction](./introduction.md)
+- [Examples](./examples.md)
+- [impl Trait everywhere](./impl_trait_everywhere.md)
+- [impl Trait everywhere](./impl_trait_everywhere.md)
+- [Borrow checker](./borrow_checker.md)
+    - [Claim](./claim.md)
+    - [Autoclaim](./autoclaim.md)
+    - [View types](./view_types.md)
+    - [Auto view types for private functions](./auto_view_types.md)
+- [Error handling](./error_handling.md)
+    - [Try fn and try blocks](./try.md)
+    - [Async try fns](./async_try.md)
+- ["Maximally minimal" effects](./effects.md)
+    - [Do](./do.md)
+    - [Const](./const_do.md)
