@@ -20,3 +20,10 @@ In addition there are "restrictions" -- that is, indications that a function doe
 * `const fn foo()` can be called in `const` contexts, unlike regular functions
 
 To be clear, the analogy between these items is only "skin deep". They work in very different ways. `async fn` desugars to `-> impl Future`, for example, and `try fn` desugars to `Result`. But you can see that they at least **feel** similar -- and they have another similarity too. They all package up the return value in some kind of wrapper and then allow it to be unpacked. E.g., when you use the "pairing" operation (e.g., `await`, `?`), what you get back is the "regular return value" of the function. This is what I mean by them being "monadic".
+
+## Credit where credit is due
+
+Heavily influenced by [Yosh](https://github.com/yoshuawuyts) and [Oli](https://github.com/oli-obk/) and their work on [Keyword Generics](https://blog.rust-lang.org/inside-rust/2022/07/27/keyword-generics.html).
+
+
+
